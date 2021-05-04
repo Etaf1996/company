@@ -566,7 +566,9 @@ footer .copyright p {
   color: #919191;
   margin-bottom: 0;
 }
-@media (max-width: 980px) {
+
+  
+@media (max-width: 992px) {
   nav.navbar ul.navbar-nav li a.nav-link {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
@@ -627,14 +629,14 @@ footer .copyright p {
   }
 }
 @media (max-width: 575px) {
-  header .overlay .slider .carousel-inner .carousel-item .carousel-caption {
-    left: 2%;
-    right: 2%;
+  
+  header .overlay .slider .carousel-control-prev i,
+  header .overlay .slider .carousel-control-next i{
+    border: none !important;
   }
 
-  header .overlay .slider .carousel-control-prev,
-  header .overlay .slider .carousel-control-next {
-    display: none;
+  header .overlay .slider .carousel-caption h3{
+    font-size: 20px !important;
   }
 
   .work-gallery .col-md > .col-sm > a {   
